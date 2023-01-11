@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29273d3c62d54124da6db10e00b5da4a, type: 3}
+  m_Name: LevelData
+  m_EditorClassIdentifier: 
+  levelImages:
+  - {fileID: 2800000, guid: 299a6b28cde00bb4c88759e71afe0179, type: 3}
+  - {fileID: 2800000, guid: bac71ead3c96378439fd0309d0617089, type: 3}
+  - {fileID: 2800000, guid: eef7bf94ad32edf48bc50174e9d80d64, type: 3}
+  - {fileID: 2800000, guid: 5c6db6d3877b58b44ab80bd46929d391, type: 3}
+  SpawnCube: {fileID: 7394571314356186984, guid: 40e13477b41f2664fb2448e4f88ac12c, type: 3}
+  coutdownTime: 25
+  spawnCubeAmount: 3000
+  pools:
+  - tag: Cube
+    cubePrefab: {fileID: 7560785967446463541, guid: 40e13477b41f2664fb2448e4f88ac12c, type: 3}
+  moveSpeed: 30
+  AIMoveSpeed: 15
+  spawnRate: 0.02
+  forceSpeed: 60
+  AllyColor: {r: 1, g: 0.8784314, b: 0, a: 1}
+  AIColor: {r: 1, g: 0.05490196, b: 0, a: 1}

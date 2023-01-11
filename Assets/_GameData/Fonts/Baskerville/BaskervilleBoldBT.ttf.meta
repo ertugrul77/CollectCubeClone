@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 2dc80e6d421fd8a468e39636ef237db9
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Baskerville BT
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 114ec75176eac4f429bc1e0917d6ac6a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
